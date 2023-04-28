@@ -1,0 +1,82 @@
+//nestin
+nav{
+  background-color: #74EBD5;
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+      font-size:$mainsie;
+    a{
+      display: flex;
+      justify-content: space-between;
+      align-items:$maincen;
+      margin-left: 50px;
+      &:hover{
+        text-decoration: overline;
+      }
+    } 
+}
+header img {
+ width:100%;
+}
+h1{
+  @include textos(20px,rgb(12, 11, 11),center)
+}
+p{
+  @include servicios(16,rgb(11, 11, 11),center)
+}
+.table{
+  text-align:$maincen;
+  tr{
+    &:hover{
+      background-color: rgb(88, 209, 240);
+    }
+  }
+}
+
+.Formulario {
+  background: url(../img/fondocont.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin:10px;
+}
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+input,textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 9px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  
+}
+textarea{
+  min-height: 100px;
+  max-height: 300px;
+}
+#boton{
+  background-color:$tercercolor;
+  padding:10px;
+  &:hover{
+    cursor: pointer;
+  }
+}
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+
+footer{
+  background-color:$secondarycolor;
+}
+.imga{
+  padding: 5px;
+  margin: auto;
+}
+
