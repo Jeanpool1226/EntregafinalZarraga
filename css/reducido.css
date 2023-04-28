@@ -238,7 +238,7 @@ button {
 
 button,
 [type=button] {
-  -webkit-appearance: button;
+  -webkit-user-drag: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled) {
@@ -282,7 +282,7 @@ button:not(:disabled),
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+  -webkit-user-drag: button;
 }
 
 
